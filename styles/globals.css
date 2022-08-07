@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'OA-Regular';
+    src:    url('/fonts/Ostia_Antica_WEBL-Regular.eot');
+    src:    url('/fonts/Ostia_Antica_WEBL-Regular.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Ostia_Antica_WEBL-Regular.woff') format('woff'),
+            url('/fonts/Ostia_Antica_WEBL-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'OA-Book';
+    src:    url('/fonts/Ostia_Antica_WEBL-Book.eot');
+    src:    url('/fonts/Ostia_Antica_WEBL-Book.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Ostia_Antica_WEBL-Book.woff') format('woff'),
+            url('/fonts/Ostia_Antica_WEBL-Book.woff2') format('woff2');
+}
+
+@layer base {
+    body {
+        @apply bg-neutral-50;
+    }
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'OA-Book';
+    margin-bottom: 1.5rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#mountains_canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
