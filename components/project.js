@@ -12,6 +12,7 @@ export default function Project(props) {
                     width={96}
                     height={96}
                     className="rounded-full w-full"
+                    placeholder="blur"
                 />
             </div>
             <div className="flex-grow">

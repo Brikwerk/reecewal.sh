@@ -9,6 +9,16 @@ import Project from '../components/project'
 import Degree from '../components/degree'
 import Award from '../components/award'
 
+import hobbiesImg from '../public/images/hobbies.png'
+import serverImg from '../public/images/server.png'
+import autumnStrawberryImg from '../public/images/autumn_strawberry.jpg'
+import bdspAutomationImg from '../public/images/bdsp_automation.jpg'
+import ctqaImg from '../public/images/ctqa.jpg'
+import fourierDeconvImg from '../public/images/fourier_deconv.jpg'
+import tagciteImg from '../public/images/tagcite.jpg'
+import whiteboardVisionImg from '../public/images/whiteboard_vision.jpg'
+import nxbtImg from '../public/images/nxbt.jpg'
+
 export default function Home() {
     let title = "About Me"
     return (
@@ -85,9 +95,9 @@ export default function Home() {
                         received="Sep 2020"
                         organization="UBC"
                     >
-                        {`Graduate Dean’s Entrance Scholarships (GDES) are based 
+                        {`Graduate Dean's Entrance Scholarships (GDES) are based 
                         on merit and offered to incoming full-time thesis-based 
-                        master’s and doctoral students at UBC. Eligible students 
+                        master's and doctoral students at UBC. Eligible students 
                         must have an admission GPA of first-class standing.`}
                     </Award>
                     <Award
@@ -140,7 +150,7 @@ export default function Home() {
                             </li>
                             <li>
                                 {`Directed a team of 3 other programmers in the task of 
-                                building AutoEd’s core functionality.`}
+                                building AutoEd's core functionality.`}
                             </li>
                             <li>
                                 Configured a continuous deployment pipeline for the system 
@@ -212,7 +222,7 @@ export default function Home() {
                         <ul className='list-disc ml-6'>
                             <li>
                                 {`Engaged in quality assurance/control-based software design 
-                                and research for imaging departments within BC’s Interior 
+                                and research for imaging departments within BC's Interior 
                                 Health Authority.`}
                             </li>
                             <li>
@@ -249,7 +259,7 @@ export default function Home() {
                     <Project
                         title="NXBT"
                         projectLink="https://github.com/brikwerk/nxbt"
-                        imageSrc="/images/nxbt.jpg"
+                        imageSrc={nxbtImg}
                         imageAlt="NXBT Logo"
                     >
                         <div>
@@ -262,7 +272,7 @@ export default function Home() {
                     <Project
                         title="BDSP Automation"
                         projectLink="https://github.com/Brikwerk/bdsp-automation"
-                        imageSrc="/images/bdsp_automation.jpg"
+                        imageSrc={bdspAutomationImg}
                         imageAlt="An image from BDSP during automation"
                     >
                         <div>
@@ -276,7 +286,7 @@ export default function Home() {
                     <Project
                         title="Autumn Strawberry"
                         projectLink="https://autumnstrawberry.com"
-                        imageSrc="/images/autumn_strawberry.jpg"
+                        imageSrc={autumnStrawberryImg}
                         imageAlt="A piece of artwork from the Autumn Strawberry exhibit"
                     >
                         <div>
@@ -290,7 +300,7 @@ export default function Home() {
                     <Project
                         title="Fourier Transform Deconvolution"
                         projectLink="https://github.com/Brikwerk/fourier-transform-deconvolution"
-                        imageSrc="/images/fourier_deconv.jpg"
+                        imageSrc={fourierDeconvImg}
                         imageAlt="Deconvolved X-ray Scatter"
                     >
                         <div>
@@ -304,7 +314,7 @@ export default function Home() {
                     <Project
                         title="CTQA"
                         projectLink="https://github.com/Brikwerk/ctqa"
-                        imageSrc="/images/ctqa.jpg"
+                        imageSrc={ctqaImg}
                         imageAlt="CTQA logo"
                     >
                         <div>
@@ -317,7 +327,7 @@ export default function Home() {
                     <Project
                         title="Whiteboard Vision"
                         projectLink="https://github.com/Brikwerk/whiteboard-vision"
-                        imageSrc="/images/whiteboard_vision.jpg"
+                        imageSrc={whiteboardVisionImg}
                         imageAlt="Identified text using Whiteboard Vision"
                     >
                         <div>
@@ -331,7 +341,7 @@ export default function Home() {
                     <Project
                         title="TagCite"
                         projectLink="https://github.com/Brikwerk/tagcite"
-                        imageSrc="/images/tagcite.jpg"
+                        imageSrc={tagciteImg}
                         imageAlt="TagCite logo"
                     >
                         <div>
@@ -348,10 +358,11 @@ export default function Home() {
                         <div className='flex justify-center pb-4 sm:pr-6'>
                             <div className='w-48'>
                                 <Image
-                                    src="/images/server.png"
+                                    src={serverImg}
                                     alt="An image of a black desktop"
                                     height={230}
                                     width={231}
+                                    placeholder="blur"
                                 />
                             </div>
                         </div>
@@ -380,7 +391,8 @@ export default function Home() {
                                     GPUs: AMD Vega 64
                                 </li>
                             </ul>
-                            <br/>
+                            Coding PC: Macbook Pro 16 (2021)
+                            <br/><br/>
                             <div>
                                 Editor: Visual Studio Code
                             </div>
@@ -393,10 +405,11 @@ export default function Home() {
                 <Section title='Hobbies' accordion={true}>
                     <div className='pb-6'>
                         <Image
-                            src="/images/hobbies.png"
+                            src={hobbiesImg}
                             alt="Images from biking, skiing, and hiking"
                             height={1116}
                             width={2446}
+                            placeholder="blur"
                         />
                     </div>
                     <p>
