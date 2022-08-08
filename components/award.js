@@ -3,7 +3,7 @@ import { CorporateFare, EmojiEvents, Today } from "@mui/icons-material";
 export default function Award(props) {
     return (
         <div className="mb-5">
-            <h3 className="text-lg pb-2">
+            <h3 className="text-xl pb-2">
                 <EmojiEvents className="pb-0.5 pr-1"/>
                 {props.title}
             </h3>
