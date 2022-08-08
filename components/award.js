@@ -17,7 +17,7 @@ export default function Award(props) {
                     <span className="pt-0.5">{props.organization}</span>
                 </span>
             </div>
-            <div className="font-body">
+            <div className="font-body pl-4">
                 {props.children}
             </div>
         </div>
