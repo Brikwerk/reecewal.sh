@@ -45,7 +45,7 @@ class Mountains extends Component {
             threshold: 23,
             display: 'THRESHOLD_EDGES',
             displayConditionalEdges: true,
-            thickness: 1,
+            thickness: 2,
             useThickLines: true,
             model: 'SMALL',
 
