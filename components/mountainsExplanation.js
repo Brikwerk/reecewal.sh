@@ -1,5 +1,6 @@
 import { Place } from "@mui/icons-material";
 import React, { useState } from "react";
+import glacierLakeImg from "../public/images/glacier_lake.jpg"
 import Image from "next/image";
 
 export default function MountainsExplanation(props) {
@@ -81,11 +82,12 @@ export default function MountainsExplanation(props) {
                 >
                     <div>
                         <Image
-                            src="/images/glacier_lake.jpg"
+                            src={glacierLakeImg}
                             width={1200}
                             height={570}
                             alt="An image of mountains with a lake"
                             className="rounded-t-md"
+                            placeholder="blur"
                         />
                     </div>
                     <div className="px-4 py-3 text-xl flex justify-left items-center font-sans">
