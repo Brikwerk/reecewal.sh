@@ -145,11 +145,12 @@ export default function Home() {
                     >
                         <ul className='list-disc ml-6'>
                             <li>
-                                Designed AutoEd, a system that enabled the creation, 
-                                submittance, and autograding of student-made ER diagrams.
+                                Designed the infrastructure behind AutoEd, 
+                                a system that enabled the creation, submittance, and 
+                                autograding of student-made ER diagrams.
                             </li>
                             <li>
-                                {`Directed a team of 3 other programmers in the task of 
+                                {`Collaborated with a team of 3 other programmers in the task of 
                                 building AutoEd's core functionality.`}
                             </li>
                             <li>
