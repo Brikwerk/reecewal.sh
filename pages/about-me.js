@@ -18,6 +18,8 @@ import fourierDeconvImg from '../public/images/fourier_deconv.jpg'
 import tagciteImg from '../public/images/tagcite.jpg'
 import whiteboardVisionImg from '../public/images/whiteboard_vision.jpg'
 import nxbtImg from '../public/images/nxbt.jpg'
+import maskerImg from '../public/images/simple_masker.png'
+import diffImg from '../public/images/image_difference.png'
 
 export default function Home() {
     let title = "About Me"
@@ -268,6 +270,32 @@ export default function Home() {
                         </div>
                         <div>
                             Utilizes: Python, JavaScript, HTML/CSS, Vagrant
+                        </div>
+                    </Project>
+                    <Project
+                        title="Image Difference Segmentation"
+                        projectLink="https://github.com/Brikwerk/image-difference-segmentation"
+                        imageSrc={diffImg}
+                        imageAlt="An image difference artefact"
+                    >
+                        <div>
+                            Generate masks and train segmentation models from image differences.
+                        </div>
+                        <div>
+                            Utilizes: Python, PyTorch, Computer Vision Techniques
+                        </div>
+                    </Project>
+                    <Project
+                        title="Simple Masker"
+                        projectLink="https://github.com/Brikwerk/simple-masker"
+                        imageSrc={maskerImg}
+                        imageAlt="A masked image from within Simple Masker"
+                    >
+                        <div>
+                            A web utility for creating, editing, and saving binary masks for images.
+                        </div>
+                        <div>
+                            Utilizes: JavaScript, Python, Flask, HTML, CSS, Canvas
                         </div>
                     </Project>
                     <Project
