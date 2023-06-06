@@ -67,16 +67,16 @@ export default function Home() {
                 <Section title='Education & Awards' accordion={true}>
                     <div className='md:grid md:grid-cols-2 md:gap-6'>
                         <Degree
-                            title="Bachelor of Science with Honours"
-                            specialization="Major in Computer Science"
+                            title="Master of Science"
+                            specialization="Specialization in Computer"
                             institution="UBC"
-                            received="Received June 2020"
+                            received="Completed April 2023"
                         />
                         <Degree
-                            title="Master of Science"
+                            title="Doctor of Philosophy"
                             specialization="Specialization in Computer Science"
                             institution="UBC"
-                            received="Estimated completion in Oct 2022"
+                            received="Started May 2023"
                         />
                     </div>
                     <Award
@@ -119,6 +119,23 @@ export default function Home() {
                     </Award>
                 </Section>
                 <Section title='Work Experience' accordion={true}>
+                    <Experience
+                        title='Sessional Professor'
+                        employer='UBC'
+                        timeline='2023/01 - 2023/04'
+                        location='UBC, Kelowna'
+                    >
+                        <ul className='list-disc ml-6'>
+                            <li>
+                                Taught COSC 315, a course on Operating System concepts and programming, to a class
+                                of 100 students.
+                            </li>
+                            <li>
+                                Revised and created new lectures, assignments, and examinations. C was used as
+                                the primary programming language for all course content.
+                            </li>
+                        </ul>
+                    </Experience>
                     <Experience
                         title='Graduate Research and Teaching Assistant'
                         employer='UBC'
