@@ -68,13 +68,13 @@ export default function Home() {
                     <div className='md:grid md:grid-cols-2 md:gap-6'>
                         <Degree
                             title="Master of Science"
-                            specialization="Specialization in Computer"
+                            specialization="Computer Science"
                             institution="UBC"
                             received="Completed April 2023"
                         />
                         <Degree
                             title="Doctor of Philosophy"
-                            specialization="Specialization in Computer Science"
+                            specialization="Computer Science"
                             institution="UBC"
                             received="Started May 2023"
                         />

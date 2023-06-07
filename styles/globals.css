@@ -18,6 +18,14 @@
             url('/fonts/Ostia_Antica_WEBL-Book.woff2') format('woff2');
 }
 
+@font-face {
+    font-family: 'OA-Light';
+    src:    url('/fonts/Ostia_Antica_WEBL-Light.eot');
+    src:    url('/fonts/Ostia_Antica_WEBL-Light.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/Ostia_Antica_WEBL-Light.woff') format('woff'),
+            url('/fonts/Ostia_Antica_WEBL-Light.woff2') format('woff2');
+}
+
 @layer base {
     body {
         @apply bg-neutral-50;
@@ -31,7 +39,7 @@ body {
 }
 
 p {
-    font-family: 'OA-Book';
+    font-family: 'OA-Light';
     margin-bottom: 1.5rem;
 }
 
