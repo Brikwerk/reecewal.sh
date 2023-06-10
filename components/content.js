@@ -6,8 +6,14 @@ export default function Content(props) {
             <div className="max-w-3xl m-auto px-6 py-8 pt-10">
                 {
                     props.title &&
-                    <h1 className="text-5xl pb-2 mb-2 text-center">
+                    <h1 className="text-5xl pb-1 mb-1 text-center">
                         {props.title}
+                        {
+                            props.subtitle &&
+                            <div className='font-body pt-2 mb-2 text-sm text-gray-700'>
+                                {props.subtitle}
+                            </div>
+                        }
                     </h1>
                 }
                 {props.children}

@@ -31,10 +31,10 @@ export default function Section(props) {
     }
 
     return (
-        <div className="text-neutral-900 mb-6">
+        <div className="text-neutral-900 mb-7">
             <div
                 onClick={() => {setAccordionState(!accordionState)}}
-                className={"flex items-center justify-center mb-5" + pointerStyle}
+                className={"hover:underline flex items-center justify-left mb-5" + pointerStyle}
             >
                 {
                     props.accordion &&
@@ -42,10 +42,10 @@ export default function Section(props) {
                         {accordionButton}
                     </div>
                 }
-                <h2 className="text-2xl pr-4">{props.title}</h2>
-                <div className="flex-grow h-px bg-neutral-900"></div>
+                <h2 className="text-3xl pr-4">{props.title}</h2>
+                {/* <div className="flex-grow h-px bg-neutral-900"></div> */}
              </div>
-             <div className={'pl-2' + accordionContentStyle}>
+             <div className={'border-l-2 ml-2.5 pl-5' + accordionContentStyle}>
                 {props.children}
             </div>
         </div>

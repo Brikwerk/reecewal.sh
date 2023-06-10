@@ -23,22 +23,23 @@ import diffImg from '../public/images/image_difference.png'
 
 export default function Home() {
     let title = "About Me"
+    let subtitle = "TL;DR: ML PhD @ UBC"
     return (
         <Layout title={title}>
-            <Content title={title}>
+            <Content title={title} subtitle={subtitle}>
                 <p>
                     {`Hey, I'm Reece! 👋`}
                 </p>
                 <p>
-                    {`I'm a graduate student currently studying at the 
+                    {`I'm a doctoral student currently studying at the 
                     University of British Columbia (UBC). My interests 
                     and research lie in teaching computers about the real 
                     world through images and video. Currently, I'm 
                     focusing on training a computer to understand something 
-                    from very few examples, AKA few-shot learning. In my 
-                    spare time, I also like tinkering with Linux systems, 
-                    dabbling in task automation, and exploring web 
-                    technologies.`}
+                    from very few examples, a field also known as few-shot 
+                    learning. In my spare time, I also like tinkering with 
+                    Linux systems, dabbling in task automation, and exploring 
+                    web technologies.`}
                 </p>
                 <p>
                     {`On this page you can find out a bit more about me, some 
@@ -49,18 +50,19 @@ export default function Home() {
                 <Section title='Connect' accordion={true} accordionHidden={false}>
                     <span className='pb-3 font-body flex items-center'>
                         <span className='pr-2'><Email/></span>
-                        {`Email: mail "at" reecewal.sh`}
+                        <span className='font-sans pr-1'>Email: </span>
+                        {`mail "at" reecewal.sh`}
                     </span>
                     <span className='pb-3 font-body flex items-center'>
                         <span className='pr-2'><LinkedIn/></span>
                         <Link href="https://www.linkedin.com/in/reece-walsh-742893221/">
-                            <a>LinkedIn: <span className='underline'>Reece Walsh</span></a>
+                            <a><span className='font-sans'>LinkedIn:</span> <span className='underline'>Reece Walsh</span></a>
                         </Link>
                     </span>
                     <span className='pb-3 font-body flex items-center'>
                         <span className='pr-2'><GitHub/></span>
                         <Link href="https://github.com/Brikwerk">
-                            <a>GitHub: <span className='underline'>Brikwerk</span></a>
+                            <a><span className='font-sans'>GitHub:</span> <span className='underline'>Brikwerk</span></a>
                         </Link>
                     </span>
                 </Section>
