@@ -37,7 +37,7 @@ export default function Home() {
                     world through images and video. Currently, I'm 
                     focusing on training a computer to understand something 
                     from very few examples, a field also known as few-shot 
-                    learning. In my spare time, I also like tinkering with 
+                    learning. In my spare time, I like tinkering with 
                     Linux systems, dabbling in task automation, and exploring 
                     web technologies.`}
                 </p>

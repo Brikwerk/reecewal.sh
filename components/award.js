@@ -7,7 +7,7 @@ export default function Award(props) {
                 <EmojiEvents className="pb-0.5 pr-1"/>
                 {props.title}
             </h3>
-            <div className="pb-2">
+            <div className="pb-1">
                 <span className="inline-flex items-start pr-4 pb-2">
                     <span className="pr-2"><Today/></span>
                     <span className="pt-0.5">{props.received}</span>
@@ -17,7 +17,7 @@ export default function Award(props) {
                     <span className="pt-0.5">{props.organization}</span>
                 </span>
             </div>
-            <div className="font-body ml-2.5 pl-4 border-l-2 text-justify">
+            <div className="font-body text-justify">
                 {props.children}
             </div>
         </div>

@@ -9,11 +9,11 @@ export default function Experience(props) {
                     <span className="pr-1.5"><Business/></span>
                     <span className="pt-0.5">{props.employer}</span>
                 </span>
-                <span className="inline-flex items-center pr-4 pb-2 sm:pb-0">
+                <span className="flex sm:inline-flex items-center pr-4 pb-2 sm:pb-0">
                     <span className="pr-1.5"><Today/></span>
                     <span className="pt-0.5">{props.timeline}</span>
                 </span>
-                <span className="inline-flex items-center pr-4">
+                <span className="flex sm:inline-flex items-center pr-4">
                     <span className="pr-1"><Place/></span>
                     <span className="pt-0.5">{props.location}</span>
                 </span>

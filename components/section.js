@@ -43,9 +43,8 @@ export default function Section(props) {
                     </div>
                 }
                 <h2 className="text-3xl pr-4">{props.title}</h2>
-                {/* <div className="flex-grow h-px bg-neutral-900"></div> */}
              </div>
-             <div className={'border-l-2 ml-2.5 pl-5' + accordionContentStyle}>
+             <div className={'sm:border-l-2 sm:ml-2.5 pl-2 pr-2 sm:pl-5 sm:pr-0' + accordionContentStyle}>
                 {props.children}
             </div>
         </div>

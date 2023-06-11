@@ -10,7 +10,7 @@ export default function Content(props) {
                         {props.title}
                         {
                             props.subtitle &&
-                            <div className='font-body pt-2 mb-2 text-sm text-gray-700'>
+                            <div className='font-body pt-2 mb-4 text-sm text-gray-700'>
                                 {props.subtitle}
                             </div>
                         }
