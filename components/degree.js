@@ -2,8 +2,8 @@ import { Today, School, LibraryBooks } from "@mui/icons-material";
 
 export default function Degree(props) {
     return (
-        <div className="p-5 mb-6 rounded-md border border-neutral-900">
-            <h3 className="text-lg pb-3 text-center border-b border-b-neutral-900 mb-4">{props.title}</h3>
+        <div className="p-5 mb-6 rounded-md border-2 border-neutral-900">
+            <h3 className="text-lg pb-3 text-center border-b-2 border-b-neutral-900 mb-4">{props.title}</h3>
             <div className="font-body">
                 <div className="flex items-start pr-4 pb-2">
                     <span className="pr-2"><LibraryBooks/></span>

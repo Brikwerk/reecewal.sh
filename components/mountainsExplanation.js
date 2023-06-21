@@ -29,10 +29,6 @@ export default function MountainsExplanation(props) {
 
             // Remove padding
             mount.classList.remove("p-3");
-
-            // Lessen border
-            mount.classList.remove("border-2");
-            mount.classList.add("border");
             
             icon.style.opacity = "0";
             info.style.opacity = "100%";
@@ -57,10 +53,6 @@ export default function MountainsExplanation(props) {
             // Add padding
             mount.classList.add("p-3");
 
-            // Widen border
-            mount.classList.add("border-2");
-            mount.classList.remove("border");
-
             mount.style = {};
             icon.style.opacity = "100%";
             info.style.opacity = "0";
@@ -72,7 +64,7 @@ export default function MountainsExplanation(props) {
     return (
         <div className="z-10 fixed bottom-4 right-4">
             <div
-                className='grid grid-cols-1 grid-rows-1 duration-200  border-2 h-14 w-14 p-3 rounded-md border-neutral-900 hover:cursor-pointer text-neutral-50 hover:text-neutral-900 bg-neutral-900 hover:bg-neutral-50'
+                className='grid grid-cols-1 grid-rows-1 duration-200 border-2 h-14 w-14 p-3 rounded-md border-neutral-900 hover:cursor-pointer text-neutral-50 hover:text-neutral-900 bg-neutral-900 hover:bg-neutral-50'
                 onClick={expand}
                 ref={ref => mount = ref}
             >
@@ -80,7 +72,7 @@ export default function MountainsExplanation(props) {
                     className="z-10 flex flex-col transition-opacity duration-100 opacity-0 col-start-1 row-start-1"
                     ref={ref => info = ref}
                 >
-                    <div>
+                    <div className="flex border-b-2 border-gray-900 mb-1">
                         <Image
                             src={glacierLakeImg}
                             width={1200}
@@ -112,7 +104,7 @@ export default function MountainsExplanation(props) {
                         </p>
                     </div>
                     <div
-                        className="rounded-b-md text-neutral-900 bg-neutral-50 hover:underline text-center p-3 border-t border-t-neutral-900 cursor-pointer"
+                        className="rounded-b-md text-neutral-900 bg-neutral-50 hover:underline text-center p-3 border-t-2 border-t-neutral-900 cursor-pointer"
                         onClick={contract}
                     >
                         CLOSE

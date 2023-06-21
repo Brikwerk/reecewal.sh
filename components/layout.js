@@ -28,7 +28,7 @@ export default function Layout(props) {
                 <title>{title}</title>
             </Head>
             <Navbar></Navbar>
-            <main style={style} className={'pt-11 ' + twStyle}>
+            <main style={style} className={'pt-14 ' + twStyle}>
                 {props.children}
             </main>
         </div>

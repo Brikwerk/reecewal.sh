@@ -42,7 +42,7 @@ export default function Section(props) {
                         {accordionButton}
                     </div>
                 }
-                <h2 className="text-3xl pr-4">{props.title}</h2>
+                <h2 className="tracking-tight text-3xl pr-4">{props.title}</h2>
              </div>
              <div className={'sm:border-l-2 sm:ml-2.5 pl-2 pr-2 sm:pl-5 sm:pr-0' + accordionContentStyle}>
                 {props.children}

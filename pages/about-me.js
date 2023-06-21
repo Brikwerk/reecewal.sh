@@ -8,6 +8,7 @@ import Experience from '../components/experience'
 import Project from '../components/project'
 import Degree from '../components/degree'
 import Award from '../components/award'
+import LaptopTerminal from '../components/laptop'
 
 import hobbiesImg from '../public/images/hobbies.png'
 import serverImg from '../public/images/server.png'
@@ -26,7 +27,7 @@ export default function Home() {
     let subtitle = "TL;DR: ML PhD @ UBC"
     return (
         <Layout title={title}>
-            <Content title={title} subtitle={subtitle}>
+            <Content headerImage={<LaptopTerminal/>} title={title} subtitle={subtitle}>
                 <p>
                     {`Hey, I'm Reece! 👋`}
                 </p>
