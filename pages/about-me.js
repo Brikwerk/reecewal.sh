@@ -32,15 +32,13 @@ export default function Home() {
                     {`Hey, I'm Reece! 👋`}
                 </p>
                 <p>
-                    {`I'm a doctoral student currently studying at the 
-                    University of British Columbia (UBC). My interests 
-                    and research lie in teaching computers about the real 
-                    world through images and video. Currently, I'm 
-                    focusing on training a computer to understand something 
-                    from very few examples, a field also known as few-shot 
-                    learning. In my spare time, I like tinkering with 
-                    Linux systems, dabbling in task automation, and exploring 
-                    web technologies.`}
+                    {`I'm a Machine Learning Engineer currently working at 
+                    TerraSense Analytics. My interests and work lie in teaching 
+                    computers about visual concepts in the real world. Currently, 
+                    I'm focusing on training a computer to understand what 
+                    something is and where it might be within a given image or 
+                    video. During idle time, I like tinkering with Linux systems, 
+                    dabbling in task automation, and exploring web technologies.`}
                 </p>
                 <p>
                     {`On this page you can find out a bit more about me, some 
@@ -70,16 +68,16 @@ export default function Home() {
                 <Section title='Education & Awards' accordion={true}>
                     <div className='md:grid md:grid-cols-2 md:gap-6'>
                         <Degree
+                            title="Bachelor of Science"
+                            specialization="Honours in Computer Science"
+                            institution="UBC"
+                            received="Completed April 2020"
+                        />
+                        <Degree
                             title="Master of Science"
                             specialization="Computer Science"
                             institution="UBC"
                             received="Completed April 2023"
-                        />
-                        <Degree
-                            title="Doctor of Philosophy"
-                            specialization="Computer Science"
-                            institution="UBC"
-                            received="Started May 2023"
                         />
                     </div>
                     <Award
@@ -142,7 +140,7 @@ export default function Home() {
                     <Experience
                         title='Graduate Research and Teaching Assistant'
                         employer='UBC'
-                        timeline='2020/09 - Present'
+                        timeline='2020/09 - 2023/09'
                         location='Remote, Kelowna'
                     >
                         <ul className='list-disc ml-6'>
