@@ -24,7 +24,7 @@ import diffImg from '../public/images/image_difference.png'
 
 export default function Home() {
     let title = "About Me"
-    let subtitle = "TL;DR: ML PhD @ UBC"
+    let subtitle = "TL;DR: ML Engineer @ TerraSense"
     return (
         <Layout title={title}>
             <Content headerImage={<LaptopTerminal/>} title={title} subtitle={subtitle}>
