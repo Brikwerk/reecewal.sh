@@ -32,8 +32,8 @@ export default function Home() {
                     {`Hey, I'm Reece! 👋`}
                 </p>
                 <p>
-                    {`I'm a Machine Learning Engineer currently working at 
-                    TerraSense Analytics. My interests and work lie in teaching 
+                    {`I'm a Deep Learning Engineer currently working at 
+                    Matroid. My interests and work lie in teaching 
                     computers about visual concepts in the real world. Currently, 
                     I'm focusing on training a computer to understand what 
                     something is and where it might be within a given image or 
